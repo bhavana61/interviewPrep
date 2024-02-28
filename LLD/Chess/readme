@@ -1,0 +1,11 @@
+requirements:
+1.8*8 chessboard with two players with all the standard chess game rules
+use cases:
+1.players move pieces alternatively
+classes
+1.piece
+2.box
+3.board
+4.player
+5.Chessgame=chess class
+6.move
