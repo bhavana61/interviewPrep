@@ -1,0 +1,93 @@
+1.administration should be able to add hotels with rooms
+2.users should be able to search by location,hotel name by giving duration of stay(mvp all one day only)
+3.users should be able to book rooms hotel
+4.users should make payment/ get notification of booking.
+
+hotel:
+id:int
+name:varchar
+location_id:int
+rating:int
+
+room:
+id:int
+hotel_id:int
+room_type
+room_status
+room_no:int
+
+
+
+location;
+id:int
+location_name:varchar
+pincode
+
+
+enum:room_type
+{
+   regular,
+   delux,
+   premium
+}
+
+enum:room_booking_status
+{
+   booked,
+   free
+}
+
+user:
+id;int
+name;varchar
+email:varchar
+phone_no:varchar
+card_id
+upi_id
+
+enum;booking_status{
+booked
+canceled
+completed
+}
+
+booking:
+id;int
+user_id;int
+hotel_id:int
+room_id:int
+payment_id:int
+created_at:Date
+updated_at:Date
+status
+
+payment:
+id
+status
+amount
+mode_of_payment
+created_at:Date
+updated_at:Date
+
+enum;mode_of_payment{
+cash
+card
+upi
+}
+
+enum;mode_of_notification{
+whatsapp
+email
+sms
+}
+
+
+
+
+
+
+
+
+
+
+

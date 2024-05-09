@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class StackAndQueues {
+/*public class StackAndQueues {
     public String simplifyPath(String A) {
 //         Input 1:
 // A = "/home/"
@@ -48,7 +48,7 @@ public class StackAndQueues {
         }
 
         String res="";
-        
+
 	    if (stack.isEmpty())
         res = "/";
         while(!stack.empty())
@@ -66,9 +66,9 @@ public class StackAndQueues {
             ans[i]=-1;
             else{
                 //{4, 5, 2, 10, 8}
-                //-1 
+                //-1
                 if(A[i-1]<A[i])
-                ans[i]=A[i-1]; 
+                ans[i]=A[i-1];
                 else if(ans[i-1]==-1)
                 {
                     ans[i]=-1;
@@ -115,4 +115,4 @@ public class StackAndQueues {
         return ans;
     }
 
-}
+}*/

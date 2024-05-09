@@ -1,17 +1,16 @@
-package Media.net.src;
+package LLD.Media.net.src;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import src.Entities.Cab;
+import LLD.Media.net.src.Entities.Cab;
+import LLD.Media.net.src.Enums.CabStatus;
 import src.Entities.Location;
 import src.Entities.Person;
 import src.Entities.Ride;
-import src.Enums.CabStatus;
 import src.Enums.CabType;
 import src.Enums.UserType;
-import src.Factory.CabManagerFactory;
 import src.Interfaces.CabInterface;
 import src.Managers.BookingManager;
 
@@ -82,7 +81,7 @@ public class Ola {
     public double completeRide(int rideId) {
         Ride ride = this.ridesMap.get(rideId);
         Cab cab = this.cabsMap.get(ride.cabId);
-        CabInterface cabManager = CabManagerFactory.getCabManager(cab.cabType);
+        CabInterface cabManager = Media.net.src.Factory.CabManagerFactory.getCabManager(cab.cabType);
         double price = cabManager.calculateFare(ride, 0);
         this.updateCabLocation(cab.cabId, ride.endLocation.longitude, ride.endLocation.lattitude);
         cab.cabStatus = CabStatus.AVAILABLE;
