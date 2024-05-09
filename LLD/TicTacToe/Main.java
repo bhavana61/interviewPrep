@@ -1,4 +1,4 @@
-package TicTacToe;
+package LLD.TicTacToe;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Main {
         String  player2name = scanner.next();
         System.out.println(player1name + " - " + player1Symbol);
         System.out.println(player2name + " - " + player2Symbol);
-        TBoard tBoard=new TBoard(3);
+        TicTacToe.TBoard tBoard=new TicTacToe.TBoard(3);
         tBoard.displayBoard();
         String playername=player1name;
         String playersymbol=player1Symbol;

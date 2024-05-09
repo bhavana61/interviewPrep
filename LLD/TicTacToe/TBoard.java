@@ -1,7 +1,7 @@
 package TicTacToe;
 
 public class TBoard {
-    String[][] board;
+    public String[][] board;
     int size;
 
     public TBoard(int n) {
