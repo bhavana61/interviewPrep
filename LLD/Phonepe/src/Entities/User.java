@@ -1,6 +1,7 @@
-package Entities;
+package LLD.Phonepe.src.Entities;
 
-import Enums.DepartmentName;
+
+import LLD.Phonepe.src.Enums.DepartmentName;
 
 public class User {
     public int userId;

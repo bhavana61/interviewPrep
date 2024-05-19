@@ -1,7 +1,7 @@
-package Entities;
+package LLD.Phonepe.src.Entities;
 
-import Enums.QuestionDifficulty;
-import Enums.Tag;
+import LLD.Phonepe.src.Enums.QuestionDifficulty;
+import LLD.Phonepe.src.Enums.Tag;
 
 public class Question {
     public int questionId;

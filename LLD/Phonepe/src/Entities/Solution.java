@@ -1,4 +1,4 @@
-package Entities;
+package LLD.Phonepe.src.Entities;
 
 public class Solution {
     public int questionId;

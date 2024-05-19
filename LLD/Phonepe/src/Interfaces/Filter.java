@@ -1,6 +1,7 @@
-package Interfaces;
+package LLD.Phonepe.src.Interfaces;
 
-import Entities.Question;
+
+import LLD.Phonepe.src.Entities.Question;
 
 import java.util.List;
 

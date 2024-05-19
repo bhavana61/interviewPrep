@@ -1,9 +1,11 @@
-import Enums.SortKey;
-import Filters.Description;
-import Filters.Difficulty;
-import Filters.Score;
-import Filters.Tag;
-import Interfaces.Filter;
+package LLD.Phonepe.src;
+
+
+import LLD.Phonepe.src.Enums.SortKey;
+import LLD.Phonepe.src.Enums.Tag;
+import LLD.Phonepe.src.Filters.Description;
+import LLD.Phonepe.src.Filters.Difficulty;
+import LLD.Phonepe.src.Interfaces.Filter;
 
 public class FilterFactory {
 
@@ -16,12 +18,12 @@ public class FilterFactory {
         switch (sortKey) {
             case TAG :
                 if (tag == null) {
-                    tag = new Tag();
+                    //tag = new Tag();
                 }
                 return tag;
             case SCORE:
                 if (score == null) {
-                    score = new Score();
+                   // score = new Filter.Score();
                 }
                 return score;
             case DESCRIPTION:

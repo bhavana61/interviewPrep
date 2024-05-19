@@ -1,0 +1,37 @@
+You have to design a cab booking system Like Ola / Uber
+
+Requirements
+1. Register a Rider
+2. Register a Cab
+3. A rider can only book a cab if it is within x radius
+4. A cab can only be booked by one Rider, Sharing is not allowed
+5. There is only a single type of cab
+6. A Cab has only one driver
+7. Cab availability status can be changed
+8. Update cab location
+9. Driver should be able to complete the trip
+
+// Code should be fully functional and running
+// Code should be modular, extensible, clean
+// User identification, not authentication
+// User In-memory database
+
+
+Person : persontype, current location, personDetails
+Cab -> Carid, cartype, current location, personid, Cabstatus
+Ride -> RideId, startLocation, endLocation, userId, cabId.
+
+Ola ->
+RegisterRider()
+RegisterCab()
+BookRide(userId, CurrentLocation, Destinationlocation)
+Book ->
+CompleteRide(rideId) ->
+UpdateCabLocation()
+
+
+CabInterface -> CalculateFare
+
+SUVCab -> Calculate
+
+SedanCab ->

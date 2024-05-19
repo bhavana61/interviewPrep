@@ -1,7 +1,8 @@
-package Filters;
+package LLD.Phonepe.src.Filters;
 
-import Entities.Question;
-import Interfaces.Filter;
+
+import LLD.Phonepe.src.Entities.Question;
+import LLD.Phonepe.src.Interfaces.Filter;
 
 import java.util.*;
 
