@@ -1,8 +1,8 @@
-package Chess;
+package LLD.Chess;
 
 import static java.lang.Math.abs;
 
-public class Queen extends Piece{
+public class Queen extends Piece {
     public Queen(boolean isKilled, boolean isWhite) {
         super(isKilled, isWhite);
     }

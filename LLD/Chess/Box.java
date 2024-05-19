@@ -1,4 +1,4 @@
-package Chess;
+package LLD.Chess;
 
 public class Box {
     int x;

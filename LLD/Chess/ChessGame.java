@@ -1,7 +1,10 @@
-package Chess;
+package LLD.Chess;
+
+import LLD.Chess.Board;
 
 import java.util.ArrayList;
 import java.util.List;
+import LLD.Chess.*;
 
 public class ChessGame {
     int player1=1;

@@ -1,8 +1,8 @@
-package Chess;
+package LLD.Chess;
 
 import static java.lang.Math.abs;
 
-public class Bishop extends Piece{
+public class Bishop extends Piece {
     public Bishop(boolean isKilled, boolean isWhite) {
         super(isKilled, isWhite);
     }

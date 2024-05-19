@@ -1,4 +1,4 @@
-package Chess;
+package LLD.Chess;
 
 public abstract  class Piece {
     public boolean isKilled;

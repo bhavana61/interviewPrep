@@ -1,4 +1,4 @@
-package Chess;
+package LLD.Chess;
 
 public class Rookie extends Piece{
     public Rookie(boolean isKilled, boolean isWhite) {

@@ -1,4 +1,4 @@
-package Chess;
+package LLD.Chess;
 
 public class Board {
     Box[][] box = new Box[8][8];

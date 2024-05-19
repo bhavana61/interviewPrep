@@ -1,4 +1,4 @@
-package Chess;
+package LLD.Chess;
 
 import static java.lang.Math.abs;
 
