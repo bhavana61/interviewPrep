@@ -1,0 +1,4 @@
+Current implementation of Splitwise does not implement group related changes. 
+Oly MVP of adding expenses and sjwoing balances through expense manager is written. 
+
+As a next step, we can imporve or modify these changes according to group geature enhancement

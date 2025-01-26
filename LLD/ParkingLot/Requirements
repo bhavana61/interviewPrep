@@ -1,0 +1,15 @@
+1. Types of vehicles - 2-wheeler, 4-wheeler. should be extensible to 3-wheeler or 8-wheeler 
+2. number of entrances, exits - currently 1 and 1. Could should be easily scalable 
+3. number of floors - 1. should be scalable
+4. Parking lot fees business strategy - either hourly, or minutes or both 
+5. Payment mode - currently considering cash and this would be another big set of changes of adding all different type pf payments. but logic should be scalable and extensible to all modes of payment following all SOLID prnciples
+6. Assuming alot of spaces such that not found parkingSlot is exempted in this implementation- clarify this with interviewer
+
+
+ ##
+ What is mainly needed in LLD as per interviewer. May be some one needs finding pARKING Spot logic and implementation as important and also dealing with different types pf vehicles and alloting the parking slot to vehicles
+
+ Make sure you implement the optimised code for finding the nearest spot for parking and use the appropriate design patterns - FACTORY and STRATEGY
+
+ Draw Flow diagram if possible
+ 
