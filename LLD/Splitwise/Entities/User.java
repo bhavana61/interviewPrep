@@ -1,17 +1,14 @@
 package Splitwise.Entities;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class User {
     private String userId;
     private String name;
     private String email;
 
-    //TO-DO: can add grouplists here 
+    //TO-DO: can add grouplists here
     //private List<Group> groupsList = new ArrayList<>();
 
-    //Can be added as good to have 
+    //Can be added as good to have
    // UserBalanceSheet userBalanceSheet;
 
 
@@ -63,18 +60,8 @@ public class User {
         this.email = email;
     }
 
-
-    public List<Group> getGroupsList() {
-        return groupsList;
-    }
-
-
-    public void setGroupsList(List<Group> groupsList) {
-        this.groupsList = groupsList;
-    }
-   
 }
 
-//Notes : 
-// Adding private to the objects in the class helps in encapsulation and data maintainability by not showing the staet of objects to the outside world. 
-// Only exposed them with the help of getters and setters
+//Notes :
+//Adding private to the objects in the class helps in encapsulation and data maintainability by not showing the staet of objects to the outside world.
+//Only exposed them with the help of getters and setters
